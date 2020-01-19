@@ -3,7 +3,7 @@
 A new adaptive optimizer that can run faster than Stochastic Gradient Descent with momentum (SGDM) and get similar performance in various computer vision and natural language processing tasks.
 
 
-#### This is the Pytorch Implementation. If you know how to implement the algorithm in Tensorflow, please leave a message.
+#### This is a Pytorch Implementation. If you know how to implement the algorithm in Tensorflow, please leave a message.
 
 
 ## Usage 
