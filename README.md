@@ -1,9 +1,17 @@
 # AdaX: Adaptive Gradient Descent with Exponential Long Term Momery
 
-A new adaptive optimizer that can run faster than Stochastic Gradient Descent with momentum (SGDM) and get similar performance in various computer vision and natural language processing tasks.
-
+A new adaptive optimizer that can run faster than Stochastic Gradient Descent with momentum (SGDM) outperform Adam in many Computer Vision and Natural Language Processing tasks.
 
 #### This is a Pytorch Implementation. If you know how to implement the algorithm in Tensorflow, please leave a message.
+
+
+## Performance
+
+We compared AdaX with SGDM, Adam and AMSGrad on different deep learning tasks and the report the results in the following images. As can be observed, AdaX outperformed Adam in all the tasks and could catch up with SGDM.
+
+
+<p align="center"><img width="100%" src="pics/CIFAR_IN.png"/></p>
+<p align="center"><img width="100%" src="pics/OBW_VOC.png"/></p>
 
 
 ## Usage 
