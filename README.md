@@ -18,7 +18,7 @@ We compared AdaX with SGDM, Adam and AMSGrad on different deep learning tasks an
 
 We have implemented both AdaX with L2 regularization (AdaX) and AdaX with decoupled weight decay (AdaX-W). Please be notified that they have different step sizes (lr) and different weight decays (weight_decay). Currently, AdaX-W yields the best results and we recommend using it with the default hyper-parameters (beta1 = 0.9, beta2 = 1e-4).
 
-For the weight decay on different datasets, please use 100 * the weight decay of SGD. For example, use 5e-2 on CIFAR-10, 1e-2 on ImageNet, and 5e-2 on VOC2012 Segmentation.
+For the weight decay on different datasets, please use 5e-2 on CIFAR-10 as a general setting for tasks in Computer Vision.
 
 You can simply use AdaX-W as how you use other Pytorch optimizers:
 
